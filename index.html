@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abrazo virtual</title>
+    <title>Felicitacion virtual</title>
     <style>
         * {
             margin: 0;
@@ -83,8 +83,11 @@
 </head>
 
 <body>
+    <audio autoplay controls >
+        <source src="https://youtu.be/nyk82GVKkBo.mp3" type="audio/mpeg">
+    </audio>
     <main>
-        <h1 id="title">Enviando abrazo virtual</h1>
+        <h1 id="title">Feliz Cumpeaños</h1>
         <div>
             <img id="me" src="penguin.svg" alt="">
         </div>
@@ -96,7 +99,7 @@
         <script>
             setTimeout(function() {
                 const message = document.getElementById('result');
-                message.innerHTML = "Abrazo enviado!"
+                message.innerHTML = "Felicitacion enviada!"
             }, 6200);
             setTimeout(function() {
                 const message = document.getElementById('state-message');
